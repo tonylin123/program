@@ -27,9 +27,9 @@ public class calculator
 
     switch(menu) {
       case 1:
-       Console.Write("Enter the first number :");
+       Console.Write("Enter the first integer number:");
        num1 = Convert.ToDouble(Console.ReadLine());
-       Console.Write("Enter the second number :");
+       Console.Write("Enter the second integer number:");
        num2 = Convert.ToDouble(Console.ReadLine());
        Console.Write("The Addition of  {0} and {1} is: {2}\n",num1,num2,num1+num2);
        Console.Write("Any keys return to the menu"  );
@@ -37,9 +37,9 @@ public class calculator
         break;
         
       case 2:
-       Console.Write("Enter the first number :");
+       Console.Write("Enter the first integer number:");
        num1 = Convert.ToDouble(Console.ReadLine());
-       Console.Write("Enter the second number :");
+       Console.Write("Enter the second integer number:");
        num2 = Convert.ToDouble(Console.ReadLine());
        Console.Write("The Substraction of {0}  and {1} is: {2}\n",num1,num2,num1-num2);
        Console.Write("Any key return to the menu"  );
@@ -47,9 +47,9 @@ public class calculator
         break;
         
       case 3:
-        Console.Write("Enter the first number :");
+        Console.Write("Enter the first integer number:");
         num1 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter the second number :");
+        Console.Write("Enter the second integer number:");
         num2 = Convert.ToDouble(Console.ReadLine());
         Console.Write("The Multiplication of {0}  and {1} is: {2}\n",num1,num2,num1*num2);
         Console.Write("Any key return to the menu"  );
@@ -57,9 +57,9 @@ public class calculator
         break;  
       
       case 4:
-       Console.Write("Enter the first number :");
+       Console.Write("Enter the first integer number:");
        num1 = Convert.ToDouble(Console.ReadLine());
-       Console.Write("Enter the second number :");
+       Console.Write("Enter the second integer number:");
        num2 = Convert.ToDouble(Console.ReadLine());
         if(num1==0 || num2==0) {
           Console.Write( " Divide by zero is : 0 " );
